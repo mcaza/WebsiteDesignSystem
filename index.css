@@ -1,0 +1,380 @@
+/* Font Imports */
+@font-face {
+  font-family: 'Didact Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/didactgothic/v19/ahcfv8qz1zt6hCC5G4F_P4ASlUuYpg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/firasans/v16/va9A4kDNxMZdWfMOD5VvkrCqUTDfcQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/firasans/v16/va9B4kDNxMZdWfMOD5VnPKreRhf6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/firasans/v16/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/fredokaone/v13/k3kUo8kEI-tA1RRcTZGmTlHGCac.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* Universal Styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Didact Gothic';
+}
+
+html {
+    scroll-padding-top: 75px;
+}
+
+/* Header Styles */
+
+header {
+    width: 100%;
+    padding: 15px 5px;
+    background-color: #26211C;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    display: inline-block;
+    float: left;
+}
+
+nav ul {
+    padding-left: 20px;
+    margin: 0;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 5px;
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Fredoka One';
+    color: #F8F8F7;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+header img {
+    height: 40px;
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+}
+
+/* Body Styles */
+
+#main {
+    position: relative;
+    padding-top: 75px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-family: 'Fira Sans';
+}
+
+h2 {
+    font-family: 'Fira Sans';
+    padding-bottom: 5px;
+}
+
+/* Colors Section */
+
+.colorGrid {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.color {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 50px 0px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.brown {
+    background-color: #b1907f;
+    
+}
+
+.darkGrey {
+    background-color: #636363;
+}
+
+.pink {
+    background-color: #fd9faf;
+}
+
+.lightGrey {
+    background-color: #c5c5c5;
+}
+
+/* Font Styles */
+
+.fonts {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.font {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 30px 15px;
+    width: 29%;
+    vertical-align: top;
+}
+
+.font h3 {
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.font1 {
+    font-family: "Fredoka One";
+}
+
+.font2 {
+    font-family: "Fira Sans";
+    font-style: italic;
+    font-weight: 100;
+}
+
+.font2alt {
+    font-family: "Fira Sans";
+    font-weight: 300;
+}
+
+.font2alt2 {
+    font-family: "Fira Sans";
+    font-weight: 500;
+}
+.font3 {
+    font-family: "Didact Gothic";
+}
+
+.font img {
+    height: 150px;
+    width: 150px;
+}
+
+/* Text Styles */
+
+.box {
+    padding-bottom: 35px;
+}
+
+#h1 {
+    font-family: "Fira Sans";
+    font-weight: 500px;
+    font-size: 40px;
+    text-align: left;
+}
+
+#h2 {
+    font-family: "Fira Sans";
+    font-weight: 300px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+#h3 {
+    font-family: "Didact Gothic";
+    font-weight: 400px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+#p {
+    font-family: "Didact Gothic";
+    font-weight: 400px;
+    font-size: 19px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+#sub {
+    font-family: sans-serif;
+    font-weight: 300px;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+#link {
+    font-family: "Didact Gothic";
+    font-weight: 300px;
+    font-size: 17px;
+    text-decoration: none;
+    color: cornflowerblue;
+    text-align: left;
+    padding-left: 0px;
+}
+
+#link:hover {
+    color: blueviolet;
+}
+
+#ulLink {
+    padding-top: 30px;
+}
+
+/* Element Styles */
+
+.elements {
+    display: block;
+    text-align: center;
+}
+
+.elements h3 {
+    font-size: 23px;
+    font-family: "Fira Sans";
+    padding-bottom: 20px;
+}
+
+.buttons {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+button {
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 50%;
+}
+
+.style1 {
+    background-color: #636363;
+    color: #F8F8F7;
+    margin-right: 30px;
+}
+
+.style2 {
+    background-color: #F1EAE2;
+    color: #636363;
+}
+
+.seperator {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.seperator hr {
+    border-top: 8px solid;
+    border-radius: 5px;
+    width: 250px;
+    color: #c5c5c5;
+    margin: 0 auto;
+}
+
+.table {
+    padding-top: 25px;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-spacing: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th {
+    text-align: center;
+    background-color: #887074;
+    color: white;
+    padding: 4px 10px;
+    font-size: 19px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+td {
+    border-bottom: 1pt solid #c5c5c5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.image {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.image img {
+    border-radius: 20px;
+    width: 60%;
+    border: 1px solid #26211C;
+}
+
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+
